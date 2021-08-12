@@ -24,3 +24,11 @@ let Harry = {
 console.log(Harry.age);
 console.log(Harry["age"]);
 Harry.sayHi();
+// function
+function add(n1, n2) {
+  return n1 + n2;
+  // The codes under the 'return' could not executible
+  console.log(n1 + n2);
+}
+
+console.log(add(10, 15));
