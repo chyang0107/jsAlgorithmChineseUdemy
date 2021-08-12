@@ -10,3 +10,17 @@ let arr = ["Harry", "Ron", "Snap"];
 arr.forEach((person) => {
   console.log(person);
 });
+
+// object
+let Harry = {
+  name: "Harry Porter",
+  age: 40,
+  married: true,
+  sayHi() {
+    console.log("Harry says hi to you");
+  },
+};
+
+console.log(Harry.age);
+console.log(Harry["age"]);
+Harry.sayHi();
