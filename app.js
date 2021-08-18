@@ -54,3 +54,7 @@ function fun2(n) {
 }
 
 console.log(fun2(10));
+
+function fun1(n) {
+  return ((1 + n) * n) / 2;
+}
