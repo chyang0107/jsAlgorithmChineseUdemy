@@ -34,13 +34,23 @@ let arr = ["Harry", "Ron", "Snap"];
 // console.log(add(10, 15));
 // Class
 
-class Circle {
-  constructor(radius) {
-    this.radius = radius;  
+// class Circle {
+//   constructor(radius) {
+//     this.radius = radius;
+//   }
+//   getArea() {
+//     return this.radius * this.radius * Math.PI;
+//   }
+// }
+
+// let c1 = new Circle(5);
+
+function fun2(n) {
+  let sum = 0;
+  for (let i = 1; i < i.length; i++) {
+    sum += i;
   }
-  getArea() {
-    return this.radius * this.radius * Math.PI;
-  }
+  return sum;
 }
 
-let c1 = new Circle(5);
+console.log(fun2(10));
