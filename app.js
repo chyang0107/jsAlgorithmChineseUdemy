@@ -47,7 +47,7 @@ let arr = ["Harry", "Ron", "Snap"];
 
 function fun2(n) {
   let sum = 0;
-  for (let i = 1; i < i.length; i++) {
+  for (let i = 1; i <= n; i++) {
     sum += i;
   }
   return sum;
