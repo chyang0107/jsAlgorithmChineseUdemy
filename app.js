@@ -53,12 +53,22 @@ function fun2(n) {
   return sum;
 }
 
-console.log(fun2(10));
+//console.log(fun2(10));
 
 function fun1(n) {
   return ((1 + n) * n) / 2;
 }
 
-console.log(fun1(10));
+//console.log(fun1(10));
 
 let time1 = window.performance.now();
+fun1(100000000);
+let time2  = window.performance.now();
+let timeDiff1 = (time2-time1)/1000;
+console.log(`It takes ${timeDiff1} seconds to run fun1.`);
+
+let time3 = window.performance.now();
+fun2(100000000);
+let time4  = window.performance.now();
+let timeDiff2 = (time4-time3)/1000;
+console.log(`It takes ${timeDiff2} seconds to run fun2.`);
