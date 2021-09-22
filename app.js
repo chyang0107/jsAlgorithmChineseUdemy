@@ -60,3 +60,5 @@ function fun1(n) {
 }
 
 console.log(fun1(10));
+
+let time1 = window.performance.now();
